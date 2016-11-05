@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "spaced-comment": [0],
+    "no-unused-vars": [0],
+    "no-empty": [0],
+    "react/wrap-multilines": [0],
+    "react/no-multi-comp": [0],
+    "no-constant-condition": [0],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [0],
+    "arrow-body-style": [0],
+    "react/prefer-stateless-function": [0],
+    "semi": [0],
+    "no-param-reassign": [0],
+    "quotes": [0],
+    "comma-dangle": [0],
+    "no-console": [0],
+    "jsx-a11y/onclick-has-role": 0,
+    "react/jsx-first-prop-new-line": [0],
+    "class-methods-use-this": [0],
+    "curly": [0],
+    "no-class-assign": [0],
+    "react/jsx-filename-extension": [0]
+  },
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+  },
+  "globals": {
+    "window": true,
+    "location": true,
+    "document": true,
+    "ENV": true,
+    "noop": true,
+    "Promise": true,
+    "fetch": true
+  }
+}
